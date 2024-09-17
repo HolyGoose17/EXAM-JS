@@ -27,7 +27,7 @@ for (const cardNum of cardsPairArr) {
     card.textContent = cardNum;
     card.classList.add(`card`);
 
-    card.addEventListener('click', function() {
+    card.addEventListener('click', () => {
         if(card.classList.contains('check') || card.classList.contains('checkSuccess')) {
             return
         }
