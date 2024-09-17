@@ -41,7 +41,7 @@ for (const cardNum of cardsPairArr) {
 
             card.classList.add('check');
             
-                if(firstCard === null) {
+                if(firstCard) {
                     firstCard = card
                     firstCard.style.backgroundImage = `URL(../img/${cardNum}.png)`;
                 } else {
