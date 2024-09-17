@@ -1,6 +1,6 @@
 const gameFill = document.getElementById('wrapper');
 
-let cardsPair = 16;
+const cardsPair = 16;
 const cardsPairArr = [];
 
 let firstCard = null;
