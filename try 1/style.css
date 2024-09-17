@@ -10,8 +10,9 @@
 .wrapper{
     max-width: 960px;
     height: 100vh;
-    margin: auto;
+    margin: 15px auto;
     padding: 35px;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
