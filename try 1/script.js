@@ -13,7 +13,7 @@ for(let i = 1; i <= cardsPair; i++) {
 
 
 for(let i = 0; i < cardsPairArr.length; i++) {
-    let randomIndex = Math.floor(Math.random() * cardsPairArr.length)
+    const randomIndex = Math.floor(Math.random() * cardsPairArr.length)
     
     const temp = cardsPairArr[i];
     cardsPairArr[i] = cardsPairArr[randomIndex]
